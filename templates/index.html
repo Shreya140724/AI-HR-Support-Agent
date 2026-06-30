@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI HR Support Agent</title>
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+
+<body class="bg-gray-100">
+
+
+<div class="w-full h-screen p-3">
+
+    <div class="bg-white rounded-2xl shadow-xl h-full flex flex-col">
+
+        <!-- Header -->
+        <div class="bg-blue-600 text-white p-6">
+
+            <h1 class="text-4xl font-bold flex items-center gap-3">
+                <i class="fas fa-robot"></i>
+                AI HR Support Agent
+            </h1>
+
+            <p class="text-blue-100 mt-2 text-lg">
+                Ask anything • Self-learning enabled
+            </p>
+
+        </div>
+
+        <!-- Chat Area -->
+        <div id="chat"
+            class="flex-1 overflow-y-auto p-6 bg-gray-50 space-y-4">
+
+        </div>
+
+        <!-- Input -->
+        <div class="border-t bg-white p-4">
+
+            <div class="flex gap-3">
+
+                <input
+                    id="query"
+                    type="text"
+                    placeholder="Type your question here..."
+                    class="flex-1 border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:border-blue-500">
+
+                <button
+                    onclick="sendQuery()"
+                    class="bg-blue-600 hover:bg-blue-700 text-white px-8 rounded-xl font-medium">
+
+                    Send
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+    async function sendQuery() {
+
+        const input =
+            document.getElementById("query");
+
+        const query =
+            input.value.trim();
+
+        if (!query) return;
+
+        addMessage(
+            "user",
+            query
+        );
+
+        input.value = "";
+
+        try {
+
+            const response =
+                await fetch(
+                    "/agent/query",
+                    {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({
+                            query: query
+                        })
+                    }
+                );
+
+            const data =
+                await response.json();
+
+            if (data.answer) {
+
+                addMessage(
+                    "bot",
+                    data.answer
+                );
+
+            }
+
+            else if (data.action) {
+
+                addMessage(
+    "bot",
+    `🎟 <b>Support Ticket Created</b>
+
+Ticket ID: ${data.ticket_id}
+
+Issue: ${data.issue}
+
+Status: ${data.status}`
+);
+            }
+
+            else {
+
+                addMessage(
+                    "bot",
+                    "No response received."
+                );
+
+            }
+
+        }
+
+        catch (error) {
+
+            console.error(error);
+
+            addMessage(
+                "bot",
+                "Sorry, something went wrong."
+            );
+
+        }
+
+    }
+
+    function addMessage(sender, text) {
+
+        const chat =
+            document.getElementById("chat");
+
+        const msg =
+            document.createElement("div");
+
+        if (sender === "user") {
+
+            msg.className =
+                "ml-auto bg-blue-600 text-white p-4 rounded-2xl w-[85%] shadow";
+
+        }
+
+        else {
+
+            msg.className =
+                "mr-auto bg-white border p-4 rounded-2xl w-[85%] shadow";
+
+        }
+
+        msg.innerHTML = text.replace(/\n/g, "<br>");
+
+        chat.appendChild(msg);
+
+        chat.scrollTop =
+            chat.scrollHeight;
+
+    }
+
+    document
+        .getElementById("query")
+        .addEventListener(
+            "keypress",
+            function (e) {
+
+                if (e.key === "Enter") {
+
+                    sendQuery();
+
+                }
+
+            }
+        );
+
+</script>
+
+
+</body>
+
+</html>
