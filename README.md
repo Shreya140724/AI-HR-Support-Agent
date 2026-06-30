@@ -12,7 +12,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E)
 ![RAG](https://img.shields.io/badge/RAG-Enabled-success)
 ![Self Learning](https://img.shields.io/badge/Self--Learning-Enabled-purple)
-![License](https://img.shields.io/badge/License-MIT-blue)
 
 An intelligent HR Support Assistant built using **FastAPI**, **LangChain**, **FAISS**, and **Hugging Face Embeddings**. The application answers HR policy questions, creates IT support tickets, and continuously improves through a self-learning knowledge base.
 
@@ -312,13 +311,6 @@ images/ticket.png
 ## 👩‍💻 Author
 
 **Shreya Sidabache**
-
-M.Tech in Artificial Intelligence
-
-AI • Machine Learning • Computer Vision • NLP • Generative AI
-
 ---
 
-## 📄 License
 
-This project is developed for educational and learning purposes.
