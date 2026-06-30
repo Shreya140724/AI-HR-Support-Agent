@@ -277,7 +277,7 @@ Add screenshots here.
 ### Home Page
 
 ```
-images/home.png
+screenshots/UI.jpg
 ```
 
 ### HR Question Answering
