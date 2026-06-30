@@ -276,21 +276,16 @@ Add screenshots here.
 
 ### Home Page
 
-```
-screenshots/UI.jpg
-```
+![Home Page](screenshots/UI.jpg)
 
 ### HR Question Answering
 
-```
-images/hr_query.png
-```
+![Home Page](screenshots/chats.jpg)
+![Home Page](screenshots/QnA.jpg)
 
 ### IT Ticket Creation
 
-```
-images/ticket.png
-```
+![Home Page](screenshots/tickets.jpg)
 
 ---
 
