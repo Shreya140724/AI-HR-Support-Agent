@@ -272,8 +272,6 @@ Create IT Support Ticket
 
 ## 📸 Screenshots
 
-Add screenshots here.
-
 ### Home Page
 
 ![Home Page](screenshots/UI.jpg)
