@@ -1,0 +1,178 @@
+AI HR Support Agent Knowledge Base
+
+==================================================
+EMPLOYEE HANDBOOK AND HR POLICY
+===============================
+
+1. EMPLOYEE LEAVE POLICY
+
+The organization provides employees with different categories of leave to ensure work-life balance and employee well-being.
+
+Annual Leave Entitlement:
+
+• 12 Paid Sick Leaves per calendar year
+• 18 Earned Leaves per calendar year
+• 10 Casual Leaves per calendar year
+
+Leave Guidelines:
+
+• Sick leave may be used in case of illness or medical emergencies.
+• Medical certificates may be required for absences exceeding three consecutive days.
+• Earned leave must be approved by the reporting manager at least seven days in advance.
+• Casual leave can be availed for personal reasons and short-term requirements.
+• Unused earned leaves may be carried forward to the next year subject to company policy.
+• Employees on probation are eligible for leave on a prorated basis.
+
+Frequently Asked Questions:
+
+Q: How many sick leaves are allowed?
+A: Employees are entitled to 12 paid sick leaves per year.
+
+Q: How many earned leaves are available?
+A: Employees receive 18 earned leaves per year.
+
+Q: Can unused earned leaves be carried forward?
+A: Yes, unused earned leaves may be carried forward according to company policy.
+
+==================================================
+2. WORK FROM HOME POLICY
+========================
+
+The organization supports flexible working arrangements where business requirements permit.
+
+Guidelines:
+
+• Employees may work from home up to 2 days per week with manager approval.
+• Work from home requests must be submitted through the employee portal.
+• Employees must remain available during official working hours.
+• Attendance and productivity standards remain applicable during remote work.
+• Employees are responsible for maintaining internet connectivity and a suitable working environment.
+
+Frequently Asked Questions:
+
+Q: How many days can I work from home?
+A: Employees may work from home up to 2 days per week with manager approval.
+
+Q: Do I need approval for work from home?
+A: Yes, manager approval is required.
+
+==================================================
+3. OFFICE HOURS AND ATTENDANCE
+==============================
+
+Office Working Hours:
+
+• Monday to Friday
+• 9:00 AM to 6:00 PM
+• Lunch Break: 1:00 PM to 2:00 PM
+
+Attendance Policy:
+
+• Employees should maintain punctuality and regular attendance.
+• Employees arriving more than 30 minutes late on a recurring basis may be subject to review.
+• Overtime requires prior approval from the reporting manager.
+
+Frequently Asked Questions:
+
+Q: What are the office timings?
+A: Office timings are 9:00 AM to 6:00 PM Monday through Friday.
+
+==================================================
+4. NOTICE PERIOD POLICY
+=======================
+
+Notice Period Requirements:
+
+• Full-time employees are required to serve a 60-day notice period.
+• Employees may request an early release subject to management approval.
+• Buyout of notice period may be permitted based on company discretion.
+• Employees must complete knowledge transfer activities before their final working day.
+
+Frequently Asked Questions:
+
+Q: What is the notice period?
+A: The standard notice period is 60 days.
+
+Q: Can the notice period be reduced?
+A: It may be reduced with management approval.
+
+==================================================
+5. TRAVEL REIMBURSEMENT POLICY
+==============================
+
+The company reimburses approved business-related travel expenses.
+
+Eligible Expenses:
+
+• Local transportation
+• Cab expenses
+• Intercity travel
+• Hotel accommodation for approved business trips
+• Business meeting expenses
+
+Reimbursement Limits:
+
+• Employees may claim travel expenses up to ₹5000 per month.
+• Original bills and receipts must be submitted.
+• Claims should be submitted within 15 days of travel completion.
+
+Frequently Asked Questions:
+
+Q: What is the monthly travel reimbursement limit?
+A: Employees can claim travel expenses up to ₹5000 per month.
+
+==================================================
+6. IT SUPPORT POLICY
+====================
+
+Employees may raise IT support tickets for technical issues.
+
+Common Issues:
+
+• Laptop not working
+• Software installation requests
+• VPN connectivity problems
+• Printer issues
+• Network connectivity issues
+• Email access issues
+
+Ticket Priority Levels:
+
+High Priority:
+• Laptop failure
+• Network outage
+• Security incidents
+
+Medium Priority:
+• Software installation requests
+• Printer issues
+
+Low Priority:
+• General inquiries
+• Password reset requests
+
+Frequently Asked Questions:
+
+Q: My laptop is broken.
+A: An IT support ticket will be created automatically.
+
+Q: VPN is not connecting.
+A: An IT support ticket will be created automatically.
+
+==================================================
+7. EMPLOYEE BENEFITS
+====================
+
+Employees are eligible for the following benefits:
+
+• Health Insurance Coverage
+• Annual Performance Bonus
+• Provident Fund Contributions
+• Employee Assistance Program
+• Professional Training and Development
+• Flexible Working Options
+• Paid Public Holidays
+
+==================================================
+END OF HR KNOWLEDGE BASE
+========================
