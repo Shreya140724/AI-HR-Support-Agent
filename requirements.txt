@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+passlib[bcrypt]
+sqlalchemy
+pydantic
+python-multipart
+PyPDF2
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+httpx
+python-dotenv
